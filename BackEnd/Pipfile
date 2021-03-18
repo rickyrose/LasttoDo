@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+black = "*"
+
+[packages]
+django = "==2.2.13"
+coverage = "==5.0.3"
+codecov = "*"
+django-dotenv = "*"
+django-cors-headers = "*"
+dj-database-url = "*"
+gunicorn = "*"
+whitenoise = "==3.3.1"
+psycopg2 = "==2.7.5"
+django-heroku = "*"
+pyjwt = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
